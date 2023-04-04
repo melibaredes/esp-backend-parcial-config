@@ -10,9 +10,6 @@ spring:
       port: 27017
   application:
     name: api-serie
-  cloud:
-    config:
-      enabled: false
 eureka:
   client:
     registerWithEureka: true
