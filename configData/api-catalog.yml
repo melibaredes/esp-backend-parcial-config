@@ -6,6 +6,10 @@ spring:
   cloud:
     config:
       enabled: false
+  data:
+    mongodb:
+      database: serie
+      port: 27017
 eureka:
   client:
     registerWithEureka: true

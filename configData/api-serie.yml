@@ -3,12 +3,9 @@ server:
 spring:
   application:
     name: api-serie
-  mongodb:
-    embedded:
-      version: 4.0.2
   data:
     mongodb:
-      database: test
+      database: serie
       port: 27017
 eureka:
   instance:
