@@ -8,7 +8,7 @@ spring:
       enabled: false
   data:
     mongodb:
-      database: serie
+      database: catalog
       port: 27017
 eureka:
   client:
